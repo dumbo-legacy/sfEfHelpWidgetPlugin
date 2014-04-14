@@ -1,0 +1,30 @@
+all:
+  .settings:    
+    # yaismelmp@googlemail.com: this is a directory, containing multiple things, 
+    # not an individual file (see similar cases in a default 
+    # application's config/settings.yml).
+    
+    sfhelp_web_dir: /sfEfHelpWidgetPlugin
+    
+    # This is the last version of jquery it has left.
+    
+    jquery_core: jquery-1.4.3.min.js
+    
+    jquery_bt: jquery.bt.min.js
+    
+    # To fix z-index problems in IE6, include the bgiframe plugin on your page
+    # http://plugins.jquery.com/project/bgiframe - BeautyTips will automatically
+    # recognize it and use it.
+    
+    jquery_bgiframe: jquery.bgiframe.min.js
+    
+    # The canvas element is supported in modern versions of FireFox, Safari, and Opera. 
+    # However, Internet Explorer needs a separate library called ExplorerCanvas included 
+    # on the page in order to support canvas drawing functions. 
+  
+    canvas: excanvas.compiled.js
+
+    # Here the principal script
+    
+    efhelpwidget: helpwidget.js
+    
