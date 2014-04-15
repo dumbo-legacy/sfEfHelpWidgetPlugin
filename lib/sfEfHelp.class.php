@@ -1,12 +1,16 @@
 <?php
-/**
- * @desc  Plugin to load help widget. 
- * yaismelmp@googlemail.com
+ /**
+ * sfEfHelp
  *
+ * Class to load help widget
+ *
+ * @package    sfEfHelpWidgetPlugin
+ * @subpackage 
+ * @author     Yaismel Miranda Pons <yaismelmp@googlemail.com>
+ * @version    1.0
  */
 class sfEfHelp
 {
-
   public static function load()
   {
 	  if ( isset( $_SERVER ) ) {
